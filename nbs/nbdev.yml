@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_project_templates"
+  site-url: "https://daniel-vainsencher.github.io/nbdev_project_templates"
+  description: "Various tweaks to an nbdev project"
+  repo-branch: main
+  repo-url: "https://github.com/daniel-vainsencher/nbdev_project_templates"
