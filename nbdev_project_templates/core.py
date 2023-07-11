@@ -4,4 +4,9 @@
 __all__ = ['foo']
 
 # %% ../nbs/00_core.ipynb 3
-def foo(): pass
+# Implementation hidden via tiny triangle
+# Works also in RISE (alt-R) mode, but not stored
+def foo(): 
+    """Docstring"""
+    pass
+
