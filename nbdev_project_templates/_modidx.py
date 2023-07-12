@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://daniel-vainsencher.github.io',
                 'git_url': 'https://github.com/daniel-vainsencher/nbdev_project_templates',
                 'lib_path': 'nbdev_project_templates'},
-  'syms': {'nbdev_project_templates.core': {'nbdev_project_templates.core.foo': ('core.html#foo', 'nbdev_project_templates/core.py')}}}
+  'syms': { 'nbdev_project_templates.definitions': { 'nbdev_project_templates.definitions.foo': ( 'API/definitions.html#foo',
+                                                                                                  'nbdev_project_templates/definitions.py')}}}

@@ -3,3 +3,6 @@ website:
     contents:
       - index.ipynb
       - 00_core.ipynb
+      - section: API
+        contents:
+          - API/00_definitions.ipynb
