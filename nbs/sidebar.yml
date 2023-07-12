@@ -6,3 +6,9 @@ website:
       - section: API
         contents:
           - API/00_definitions.ipynb
+      - section: Reports
+        contents:
+          - Reports/00_plots.ipynb
+      - section: iframe_figures
+        contents:
+          - iframe_figures/figure_5.html
