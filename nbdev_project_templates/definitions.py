@@ -4,9 +4,8 @@
 __all__ = ['foo']
 
 # %% ../nbs/API/00_definitions.ipynb 3
-# Implementation hidden via tiny triangle
-# Works also in RISE (alt-R) mode, but not stored
+# Implementation code-foldable (click on grey stripe left of the def)
+# Works also in RISE (alt-R) mode
 def foo(): 
     """Docstring for foo"""
-    pass
-
+    return 7

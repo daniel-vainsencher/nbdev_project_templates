@@ -9,6 +9,4 @@ website:
       - section: Reports
         contents:
           - Reports/00_plots.ipynb
-      - section: iframe_figures
-        contents:
-          - iframe_figures/figure_5.html
+          - Reports/01_reports_excluded_from_testing.ipynb
