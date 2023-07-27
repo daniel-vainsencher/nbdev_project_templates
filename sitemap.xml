@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://daniel-vainsencher.github.io/nbdev_project_templates/API/definitions.html</loc>
+    <lastmod>2023-07-27T01:23:15.459Z</lastmod>
+  </url>
+  <url>
+    <loc>https://daniel-vainsencher.github.io/nbdev_project_templates/core.html</loc>
+    <lastmod>2023-07-27T01:23:14.667Z</lastmod>
+  </url>
+  <url>
+    <loc>https://daniel-vainsencher.github.io/nbdev_project_templates/Reports/reports_excluded_from_testing.html</loc>
+    <lastmod>2023-07-27T01:23:13.283Z</lastmod>
+  </url>
+  <url>
+    <loc>https://daniel-vainsencher.github.io/nbdev_project_templates/Reports/plots.html</loc>
+    <lastmod>2023-07-27T01:23:14.371Z</lastmod>
+  </url>
+  <url>
+    <loc>https://daniel-vainsencher.github.io/nbdev_project_templates/index.html</loc>
+    <lastmod>2023-07-27T01:23:15.179Z</lastmod>
+  </url>
+</urlset>

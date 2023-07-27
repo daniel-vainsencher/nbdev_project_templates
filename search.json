@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "API/definitions.html",
+    "href": "API/definitions.html",
+    "title": "definitions",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()\n\nDocstring for foo\n\n# Change and run nbdev_test to see this is getting run\nassert foo() == 7, \"The test for foo failed\""
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "Docs site\nSlides\nDiagrams\nAn API section\nnbdev_test by excluding parts\nInteractive plotly\nNotebook that automates using template for new project?\nRust in Python notebook?\nJulia notebook?\n\n\n\nOutput shown but code hidden by\n\n- selecting \"View-&gt;Collapse Selected Code\" (for notebook and slides)\n- #|echo: false (for nbdev_docs)"
+  },
+  {
+    "objectID": "core.html#checklist",
+    "href": "core.html#checklist",
+    "title": "core",
+    "section": "",
+    "text": "Docs site\nSlides\nDiagrams\nAn API section\nnbdev_test by excluding parts\nInteractive plotly\nNotebook that automates using template for new project?\nRust in Python notebook?\nJulia notebook?\n\n\n\nOutput shown but code hidden by\n\n- selecting \"View-&gt;Collapse Selected Code\" (for notebook and slides)\n- #|echo: false (for nbdev_docs)"
+  },
+  {
+    "objectID": "Reports/reports_excluded_from_testing.html",
+    "href": "Reports/reports_excluded_from_testing.html",
+    "title": "Don’t test reports",
+    "section": "",
+    "text": "# Note that diagrams seem to be incompatible with nbdev_test, so this notebook is \n# excluded (along with rest of nbs directory itself) by existence of .notest file\n# Exclusion demonstrated by nbdev_test passing despite the following:\nassert False\n\nAssertionError:"
+  },
+  {
+    "objectID": "Reports/plots.html",
+    "href": "Reports/plots.html",
+    "title": "A typical report",
+    "section": "",
+    "text": "from nbdev_project_templates.definitions import *\n\n\nfoo()\n\n7"
+  },
+  {
+    "objectID": "Reports/plots.html#reuses-functions-exported-by-the-project-package",
+    "href": "Reports/plots.html#reuses-functions-exported-by-the-project-package",
+    "title": "A typical report",
+    "section": "",
+    "text": "from nbdev_project_templates.definitions import *\n\n\nfoo()\n\n7"
+  },
+  {
+    "objectID": "Reports/plots.html#has-visual-elements",
+    "href": "Reports/plots.html#has-visual-elements",
+    "title": "A typical report",
+    "section": "Has visual elements",
+    "text": "Has visual elements\n\nimport plotly.express as px\ndf = px.data.tips()\nfig = px.histogram(df, x=\"total_bill\")\nfig.show()"
+  },
+  {
+    "objectID": "Reports/plots.html#can-easily-define-diagrams-e.g.-interaction-diagrams",
+    "href": "Reports/plots.html#can-easily-define-diagrams-e.g.-interaction-diagrams",
+    "title": "A typical report",
+    "section": "Can easily define diagrams, e.g. interaction diagrams",
+    "text": "Can easily define diagrams, e.g. interaction diagrams\n\nsequenceDiagram\n    Alice-&gt;&gt;John: Hello John, how are you? \n    John--&gt;&gt;Alice: Great!\n    Alice-)John: See you later!"
+  },
+  {
+    "objectID": "Reports/plots.html#can-be-adapted-to-be-a-slideshow",
+    "href": "Reports/plots.html#can-be-adapted-to-be-a-slideshow",
+    "title": "A typical report",
+    "section": "Can be adapted to be a slideshow",
+    "text": "Can be adapted to be a slideshow\n\nThe RISE package converts notebooks into reveal.js slideshows\nHow a cell acts in the slideshow is set via its Slide Type:\n\nslide: this cell is the beginning of a new slide\nsubslide: add more content to previous slide\nskip: exclude from slideshow\n\n\nFor more see https://rise.readthedocs.io/en/stable/usage.html"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_project_templates",
+    "section": "",
+    "text": "This project’s content is edited in interactive notebooks. This content is generated into a README.md file and a website from the index.ipynb."
+  },
+  {
+    "objectID": "index.html#orientation",
+    "href": "index.html#orientation",
+    "title": "nbdev_project_templates",
+    "section": "",
+    "text": "This project’s content is edited in interactive notebooks. This content is generated into a README.md file and a website from the index.ipynb."
+  },
+  {
+    "objectID": "index.html#in-a-browser",
+    "href": "index.html#in-a-browser",
+    "title": "nbdev_project_templates",
+    "section": "In a browser?",
+    "text": "In a browser?\nIf viewing the website/notebooks, here is an index of pages demonstrating some features:\n\nPlots\nSome code exported into a package\nHow testing works"
+  },
+  {
+    "objectID": "index.html#to-install-the-python-package",
+    "href": "index.html#to-install-the-python-package",
+    "title": "nbdev_project_templates",
+    "section": "To install the python package",
+    "text": "To install the python package\npip install nbdev_project_templates"
+  },
+  {
+    "objectID": "index.html#to-editdevelop-the-project",
+    "href": "index.html#to-editdevelop-the-project",
+    "title": "nbdev_project_templates",
+    "section": "To edit/develop the project",
+    "text": "To edit/develop the project\ninstructions TBD\n\n1+1\n\n2"
+  }
+]
